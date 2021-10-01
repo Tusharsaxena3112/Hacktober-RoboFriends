@@ -3,7 +3,7 @@ body{
 }
 h1{
     text-align: center;
-    color: beige;
+    color: rgb(241, 241, 58);
 }
 #container{
     display: grid;
@@ -13,7 +13,7 @@ h1{
     height:300px;
     margin:5px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px 2px rgb(162, 163, 89);
     background-color: bisque;
 }
 img{
@@ -24,7 +24,8 @@ img{
 .robot:hover{
     height: 350px;
     background-color: white;
-    transition: .3s;
+    transition: .2s;
     margin: 8px;
-    box-shadow: 3px 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px 3px rgb(162, 163, 89);
+    
 }
