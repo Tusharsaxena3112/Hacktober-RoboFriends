@@ -22,5 +22,6 @@ var container = document.getElementById("container");
 robots.forEach(element => {
     container.innerHTML += `<div id=${element.id} class="robot">
     <img  src=${element.image}>
+    <h3>Robot for hacktoberfest</h3>
     </div>`
 });
