@@ -1,35 +1,35 @@
 var robots = [{
-    id:"one",
+    id:"One",
     image:"https://robohash.org/1"
 },{
-    id:"two",
+    id:"Two",
     image:"https://robohash.org/2"
 },{
-    id:"three",
+    id:"Three",
     image:"https://robohash.org/3"
 },{
-    id:"four",
+    id:"Four",
     image:"https://robohash.org/4"
 },{
-    id:"five",
+    id:"Five",
     image:"https://robohash.org/5"
 },{
-    id:"six",
+    id:"Six",
     image:"https://robohash.org/6"
 },{
-    id:"seven",
+    id:"Seven",
     image:"https://robohash.org/7"
 },{
-    id:"eight",
+    id:"Eight",
     image:"https://robohash.org/8"
 },{
-    id:"nine",
+    id:"Nine",
     image:"https://robohash.org/9"
 }]
 
 var container = document.getElementById("container");
 robots.forEach(element => {
     container.innerHTML += `<div id=${element.id} class="robot">
-    <img  src=${element.image} title="Hi! I am robot ${element.id}">
+    <img  src=${element.image} title="Hi! I am a robot ${element.id}">
     </div>`
 });
