@@ -16,12 +16,21 @@ var robots = [{
 },{
     id:"six",
     image:"https://robohash.org/6"
+},{
+    id:"seven",
+    image:"https://robohash.org/7"
+},{
+    id:"eight",
+    image:"https://robohash.org/8"
+},{
+    id:"nine",
+    image:"https://robohash.org/9"
 }]
 
 var container = document.getElementById("container");
 robots.forEach(element => {
-    container.innerHTML += `<div id=${element.id} class="robot">
-    <img  src=${element.image}>
+    container.innerHTML += `<div id=${element.id} class="robot"
     <h3>Robot for hacktoberfest</h3>
+    <img  src=${element.image} title="Hi! I am robot ${element.id}">
     </div>`
 });
