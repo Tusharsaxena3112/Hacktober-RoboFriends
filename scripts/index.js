@@ -29,8 +29,13 @@ var robots = [{
 
 var container = document.getElementById("container");
 robots.forEach(element => {
-    container.innerHTML += `<div id=${element.id} class="robot"
-    <h3>Robot for hacktoberfest</h3>
-    <img  src=${element.image} title="Hi! I am robot ${element.id}">
-    </div>`
+    container.innerHTML += `
+        <div class="card">
+            <div id=${element.id} class="robot front">
+                <img  src=${element.image} title="Hi! I am robot ${element.id}">
+                <span class="back">Hi, I am robot ${element.id}</span>
+            </div>      
+        </div>
+    `
 });
+
