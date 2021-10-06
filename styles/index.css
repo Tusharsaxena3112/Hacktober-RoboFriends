@@ -1,50 +1,49 @@
-h1{
-    text-align: center;
-    color: beige;
+h1 {
+  text-align: center;
+  color: beige;
 }
-#container{
-    display: grid;
-    grid-template-columns: 500px 500px 500px;
-    justify-content: center;
+#container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-gap: 1rem;
 }
-.robot{
-    height:300px;
-    margin:5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px grey;
-    background-color: bisque;
+.robot {
+  height: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+  background-color: bisque;
 }
-img{
-    text-align: center;
-    width:fit-content;
+img {
+  text-align: center;
+  width: fit-content;
 }
-h3{
-    color: blueviolet;
-    margin: 3% auto;
-    text-align: center;
+h3 {
+  color: blueviolet;
+  margin: 3% auto;
+  text-align: center;
 }
-.robot:hover{
-    height: 350px;
-    background-color: white;
-    transition: .3s;
-    margin: 8px;
-    box-shadow: 3px 3px 3px 3px grey;
+.robot:hover {
+  height: 350px;
+  background-color: white;
+  transition: 0.5s;
+  margin: 8px;
+  box-shadow: 3px 3px 3px 3px grey;
 }
 body {
   background-color: black;
 }
 h1 {
   text-align: center;
-  color: rgb(241, 241, 58);
-}
-#container {
-  display: grid;
-  grid-template-columns: 500px 500px 500px;
+  color: white;
 }
 
 .robo-heading {
   animation: headingStyle 4s linear infinite;
   animation-delay: 1s;
+  background-color: bisque;
+  border-radius: 20px;
 }
 
 @keyframes headingStyle {
